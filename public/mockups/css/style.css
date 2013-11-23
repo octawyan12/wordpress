@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	overflow: hidden;
+}
+#nav{
+	position: fixed;
+	bottom:0;
+	left: 50%;
+	margin-left: -80px;
+	padding: 5px;
+	background: #ecf0f1;
+}
+#nav li {
+	display: inline-block;
+	list-style: none;
+}
+#nav li a {
+	text-decoration: none;
+	color: #7f8c8d;
+	font-weight: 400;
+}
+#content-wrapper{
+	color:#FFF;
+	height: 100%;
+}
+.page-content{
+	overflow: hidden;
+	padding: 2%;
+}
+.cont-6 {
+	width: 14%;
+	margin-left: 3.2%
+}
+.cont-6:first-child { margin-left: 0; }
+.post-preview img {
+	float: left;
+	max-width: 100%;
+}
+.post-preview p{
+	text-align: left;
+	word-wrap: break-word;
+}
+.page-content .post-preview { float: left; }
+#home, #screen-1, #screen-2{ 
+	overflow: hidden;
+	height: 100%;
+}
+#home {
+	background: #2980b9;
+}
+#screen-1 {
+	background: #16a085;
+}
+#screen-2 {
+	background: #2c3e50;
+}
+.test{ display: none;}
+.l-cont{ 
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.r-cont{
+	width: 50%;
+	height: 100%;
+	float:right;
+}
+.f-cont{
+	width: 100%;
+	height: 100%;
+	clear: both;
+	float: left;
+}
+.l-cont img, .r-cont img, .f-cont img { 
+	max-width: 100%;
+	max-height: 100%;
+ }
+ul#nav li a.active{ font-weight: 600; }
